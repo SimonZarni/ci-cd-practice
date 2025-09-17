@@ -1,0 +1,11 @@
+{
+  "name": "ci-cd-practice",
+  "version": "1.0.0",
+  "description": "A simple project to practice CI/CD",
+  "scripts": {
+    "test": "echo 'Running tests...' && exit 0",
+    "build": "echo 'Building app...' && exit 0",
+    "lint": "echo 'Linting code...' && exit 0"
+  },
+  "dependencies": {}
+}
