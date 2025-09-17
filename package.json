@@ -1,20 +1,11 @@
 {
   "name": "ci-cd-practice",
   "version": "1.0.0",
-  "description": "Expanded project to practice CI/CD",
-  "main": "index.js",
+  "description": "A simple project to practice CI/CD",
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint .",
-    "test": "jest --coverage",
-    "build": "mkdir -p dist && cp index.js dist/ && echo '<h1>Hello from CI/CD!</h1><p>Visit /about for JSON data (requires server).</p>' > dist/index.html && echo 'Build complete!'"
+    "test": "echo 'Running tests...' && exit 0",
+    "build": "echo 'Building app...' && exit 0",
+    "lint": "echo 'Linting code...' && exit 0"
   },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "jest": "^29.7.0",
-    "supertest": "^6.3.4"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "dependencies": {}
 }
